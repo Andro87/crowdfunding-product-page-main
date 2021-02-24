@@ -1,0 +1,14 @@
+.wrap {
+    margin-right: 30px;
+    @media screen and (max-width: 480px) {
+        text-align: center;
+    }
+}
+
+.number {
+    color: var(--Black);
+    font-family: "commissioner";
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}

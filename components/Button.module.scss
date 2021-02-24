@@ -1,0 +1,21 @@
+.button {
+    outline: none;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-family: "commissioner";
+    font-weight: 500;
+}
+
+.green {
+    background-color: var(--Moderatecyan);
+    &:hover {
+        background-color: var(--Darkcyan);
+    }
+}
+
+.grey {
+    background-color: var(--Darkgray);
+}

@@ -1,16 +1,55 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* Colors*/
+
+    /* Primary*/
+
+    --Moderatecyan: hsl(176, 50%, 47%);
+    --Darkcyan: hsl(176, 72%, 28%);
+
+    /* Neutral*/
+
+    --Black: hsl(0, 0%, 0%);
+    --Darkgray: hsl(0, 0%, 48%);
+}
+
+@font-face {
+    font-family: "commissioner";
+    src: url("../public/fonts/Commissioner-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "commissioner";
+    src: url("../public/fonts/Commissioner-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "commissioner";
+    src: url("../public/fonts/Commissioner-Regular.ttf");
+    font-weight: 400;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "commissioner";
+    font-weight: 400;
+    color: var(--Darkgray);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--Black);
+    font-family: "commissioner";
+    font-weight: 700;
 }

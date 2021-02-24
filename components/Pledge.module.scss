@@ -1,0 +1,56 @@
+.pledge_wrap {
+    overflow: hidden;
+    margin-top: 20px;
+}
+.hor_line {
+    width: 100%;
+    border: 1px solid var(--Darkgray);
+    opacity: 0.2;
+    position: absolute;
+    margin: 0;
+    left: 0;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        p {
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.button_wrap {
+    display: flex;
+}
+
+.money_form {
+    border: 2px solid var(--Darkgray);
+    margin-right: 15px;
+    max-width: 100px;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "commissioner";
+    font-weight: 500;
+    position: relative;
+    display: inline;
+    &:hover {
+        border: 2px solid var(--Darkcyan);
+    }
+}
+
+.money {
+    width: 75%;
+    margin-left: 5px;
+    color: var(--Black);
+    font-family: "commissioner";
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+}
