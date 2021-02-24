@@ -140,7 +140,7 @@ export default function Home() {
                         <div className={styles.backed_wrap}>
                             <Backe
                                 number={new Intl.NumberFormat(
-                                    "en-IN",
+                                    "en-US",
 
                                     {
                                         style: "currency",
